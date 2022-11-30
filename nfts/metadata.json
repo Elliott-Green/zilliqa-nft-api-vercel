@@ -1,0 +1,10 @@
+{
+  "name": "My Contract Name",
+  "description": "My Contract Description",
+  "external_url": "https://example.com",
+  "animation_url": "",
+  "collection_image_url": "https://example.com/images/my_contract_banner_image.jpg",
+  "discord": "https://discord.gg/example",
+  "twitter": "https://twitter.com/example",
+  "telegram": "https//telegram.com/example"
+}

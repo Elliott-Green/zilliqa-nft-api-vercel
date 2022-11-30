@@ -1,20 +1,28 @@
 {
-  "name": "express-vercel",
-  "version": "0.5.0",
-  "description": "express vercel boilerplate",
+  "name": "zilliqa-nft-api-vercel",
+  "version": "1.0.0",
+  "description": "An API which exposes ZRC-7 metadata",
   "main": "app.js",
   "scripts": {
+    "local": "node app.js",
     "start": "vercel dev",
-    "test": "jest -i"
+    "check": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "lint": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "dependencies": {
+    "@zilliqa-js/zilliqa": "^3.3.4",
+    "body-parser": "^1.20.1",
     "express": "^4.17.1",
-    "helmet": "^4.6.0"
+    "helmet": "^4.6.0",
+    "node-cache": "^5.1.2"
   },
   "keywords": [
-    "vercel"
+    "Vercel",
+    "Zilliqa",
+    "NFT",
+    "Metadata"
   ],
-  "author": "Kizito Akhilome <kizito@akhilo.me>",
+  "author": "Kizito Akhilome <kizito@akhilo.me>, Elliott Green <hi@elt.green",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.23",
