@@ -1,4 +1,4 @@
-const cache = require('../cache/cache.js')
+const cache = require('../cache/cache')
 const zilliqaCalls = require('../zilliqa')
 const fs = require('fs')
 
