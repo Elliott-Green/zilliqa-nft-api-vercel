@@ -22,6 +22,9 @@
     "NFT",
     "Metadata"
   ],
+  "engines": {
+    "node": "16.17.0"
+  },
   "author": "Kizito Akhilome <kizito@akhilo.me>, Elliott Green <hi@elt.green",
   "license": "MIT",
   "devDependencies": {

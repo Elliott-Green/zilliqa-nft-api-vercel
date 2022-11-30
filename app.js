@@ -13,7 +13,8 @@ app.timeout = 1000 * 60 * configVars.api_timeout_seconds
 
 app.use('/', routes)
 
-app.listen(configVars.port)
-console.log(`NFT API listening on ${configVars.port} with timeout ${app.timeout / 1000 / 60} seconds  \r\n`)
+// npm run local
+// app.listen(configVars.port)
+// console.log(`NFT API listening on ${configVars.port} with timeout ${app.timeout / 1000 / 60} seconds  \r\n`)
 
 module.exports = app
