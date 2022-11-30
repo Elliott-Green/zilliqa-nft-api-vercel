@@ -23,7 +23,7 @@
     "Metadata"
   ],
   "engines": {
-    "node": "16.17.0"
+    "node": "16.x"
   },
   "author": "Kizito Akhilome <kizito@akhilo.me>, Elliott Green <hi@elt.green",
   "license": "MIT",
