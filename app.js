@@ -17,4 +17,8 @@ app.use('/', routes)
 // app.listen(configVars.port)
 // console.log(`NFT API listening on ${configVars.port} with timeout ${app.timeout / 1000 / 60} seconds  \r\n`)
 
+// default catch all handler
+app.all('*', (req, res) => res.status(404));
+
+
 module.exports = app
